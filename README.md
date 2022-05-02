@@ -2,11 +2,11 @@
 ![Screenshot](screenshot.png)
 
 ### Built using
-rgbasm.exe -odemo.obj main.asm\
-rgblink.exe -mdemo.map -ndemo.sym -odemo.gb demo.obj
+rgbasm.exe -osbo.obj main.asm\
+rgblink.exe -msbo.map -nsbo.sym -osbo.gb sbo.obj
 
 ### Debugged using
-bgb.exe -ROM demo.gb
+bgb.exe -ROM sbo.gb
 
 ### Graphics drawn using
 Harry Mulder's GBTD and GBMB
