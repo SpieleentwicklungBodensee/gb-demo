@@ -2,7 +2,7 @@
 ![Screenshot](screenshot.png)
 
 ### Built using
-rgbasm.exe -odemo.obj main.asm
+rgbasm.exe -odemo.obj main.asm\
 rgblink.exe -mdemo.map -ndemo.sym -odemo.gb demo.obj
 
 ### Debugged using
